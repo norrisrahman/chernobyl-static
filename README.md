@@ -1,3 +1,3 @@
 # chernobyl-static
 
-<img src="https://imgur.com/a/n7yKYeS"></img>
+<img src="./image/Screenshot (1351).png" alt="">
