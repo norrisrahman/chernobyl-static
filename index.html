@@ -12,22 +12,20 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        
-        <script src="./js/jquery-3.6.0.min.js"></script>
 
 
     </head>
     <body>
             <!-- Navbar Code -->
-        <div class="mynav">
-            <nav class="navbar nav-top navbar-expand-lg bg-transparent">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Chernobyl</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <div class="mynav container nav-top">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav ml-auto">
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">HOME</a>
                         </li>
@@ -37,17 +35,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">CONTACT</a>
                         </li>
-                    </ul>
+                      </ul>
                     </div>
-                </div>
-            </nav>
-        </div>
+                  </nav>
+            </div>
         <section>
             <div class="front-text">
             <h2 id="text"><span>Chernobyl 1986</span><br>Pripyat, Ukrainian SSR, Uni Soviet</h2>
             <div type="button"  id="explore-btn" href="#second-section">Explore</div>
             </div>
-            <img src="./image/main.jpg" id="bg1">
+            <img src="./image/reactor.jpg" id="bg1">
         </section>
 
         <div id="second-section">
@@ -57,10 +54,13 @@
             </div>
         </div>
         <div id="third-section">
-            <img src="./image/reactor.jpg" id="bg2">
+            <img src="./image/main.jpg" id="bg2">
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="./js/main.js"></script>
     </body>
 
-    <script src="./js/main.js"></script>
 
 </html>
