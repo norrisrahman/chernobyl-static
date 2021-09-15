@@ -1,3 +1,3 @@
 # chernobyl-static
 
-<img src="./image/Screenshot (1351).png" alt="">
+Landing page website , https://chernobyl-landing.netlify.app/
